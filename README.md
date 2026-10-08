@@ -41,7 +41,7 @@ docs/      ER_Diagram.md
 REPORT.md
 ```
 
-## Demo script for the viva
+## Demo script 
 1. **Customer flow:** login as Rahul → search "sci" → pick a show → select seats → pay → see confirmation → *My Bookings*.
 2. **Double booking:** run the app twice (two windows), open the same show in both, select the same seat in both, pay in A, then pay in B → B gets "already booked".
 3. **Rollback:** tick *Simulate payment failure* in the payment dialog → booking and seats are NOT saved (check *My Bookings* / `SELECT * FROM bookings`).
